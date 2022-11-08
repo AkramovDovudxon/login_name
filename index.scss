@@ -1,0 +1,76 @@
+@import 'vars.scss';
+body{
+    margin: $margin;
+}
+.contenr{
+    height: $height;
+    display: $joylashtir;
+    align-items: $markaz;
+    justify-content: $markaz;
+    background-color: $back_color;
+}
+.ramka{
+    width: $width;
+    height: $balandlik;
+    background-color: $orqa_fon;
+    display: $joylashtir;
+    align-items: $markaz;
+    justify-content: $content;
+    flex-direction: $flex;
+}
+.photo{
+    width: $eni;
+    height: $eni;
+    display: $joylashtir;
+    align-items: $markaz;
+    justify-content: $markaz;
+    box-shadow: $soya;
+    border-radius: $radius;
+}
+.div_top{
+    width: $width;
+    height: 35vh;
+    display: $joylashtir;
+    justify-content: $markaz;
+    align-items: $markaz;
+    flex-direction: $flex;
+    gap: $gap;
+}
+.icon{
+    width: $width;
+    height: 7vh;
+    display: $joylashtir;
+    align-items: $markaz;
+    justify-content: $markaz;
+    gap: $orasini_och;
+}
+.bottom{
+    width: $width;
+    height: 38vh;
+    display: $joylashtir;
+}
+.bottom_left{
+    width: $widt;
+    height: $heigh;
+    display: $joylashtir;
+    align-items: $markaz;
+    justify-content: $markaz;
+    flex-direction: $flex;
+    gap: $ora;
+}
+.bottom_right{
+    width: $widt;
+    height: $heigh;
+    display: $joylashtir;
+    align-items: $markaz;
+    justify-content: $markaz;
+    flex-direction: $flex;
+    gap: $ora;
+}
+span{
+    font-size: $orasini_och;
+}
+b{
+        font-size: $size;
+        margin-top: $ora;
+}
